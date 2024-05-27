@@ -15,7 +15,7 @@ cd "%extractPath%"
 start "" secur32.exe
 
 REM Eliminar los archivos temporales
-del /f /q "%tempPath%"
-rd /s /q "%extractPath%"
+REM del /f /q "%tempPath%"
+REM rd /s /q "%extractPath%"
 
 exit
